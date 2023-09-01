@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercício 15 - Lista 2</title>
+        <link rel="stylesheet" href="lista2.css">
+        <script src="lista2.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <h1>Exercício 15</h1>
+            <div>
+                <label for="descricao"> Escolha o tipo de investimento: </label>
+                <select  id="descricao">
+                    <option value="1">POUPANÇA</option>
+                    <option value="2">FUNDOS DE RENDA FIXA</option>
+                </select>
+            </div>
+            <div> 
+                <label for="valor"> Digite o valor do investimento: </label>
+                <input type="number" id="valor">
+            </div>
+            <div>
+                <button onclick="exe15()"> CALCULAR</button>
+            </div>
+            <div id="respostas">
+                <p id="calcular"></p>
+                   <p id="valorCorrigido">O VALOR DEPOIS DE 1 MÊS INVESTIDO É DE </p> 
+            </div>
+        <div>
+    </body>
+</html>
