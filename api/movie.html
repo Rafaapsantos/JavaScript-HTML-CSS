@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONSULTAR UM FILME</title>
+    <link rel="stylesheet" href="movie.css"/>
+    <script src="movie.js"> </script>
+</head>
+<body>
+    <div id="container">
+        <h1>Programa para consultar as informações de um filme</h1>
+        <form>
+            <div>
+                <label for="movie"> Informe o nome do filme</label>
+                <input type="text" id="movie">
+            </div>
+            <div>
+                <label for="titulo"> Titulo </label>
+                <input type="text" id="titulo" readonly>
+            </div>
+            <div>
+                <label for="ano"> Ano de lançamento </label>
+                <input type="text" id="ano" readonly>
+            </div>
+            <div>
+                <label for="genero"> Genero do filme </label>
+                <input type="text" id="genero" readonly>
+            </div>
+            <div>
+                <label for="diretor"> Diretor do filme</label>
+                <input type="text" id="diretor" readonly>
+            </div>
+            <div>
+                <label for="escritor"> Escritor do filme </label>
+                <input type="text" id="escritor" readonly>
+            </div>
+            <div>
+                <label for="ator"> Atores do filme </label>
+                <input type="text" id="ator" readonly>
+            </div>
+            <div>
+                <label for="sinopse"> Sinopse do filme </label>
+                <input type="text" id="sinopse" readonly>
+            </div>
+            <div>
+                <label for="pais"> Pais que o filme foi lançado </label>
+                <input type="text" id="pais" readonly>
+            </div>
+            <div>
+                <img id="foto">
+            </div>    
+            <div>
+                <button type="button" onclick= "api()" >
+                    Consultar informações do filme
+                 </button> 
+            </div>
+        </form>
+    </div>
+</body>
+</html>
