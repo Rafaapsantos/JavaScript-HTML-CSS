@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONSULTAR UMA FOTO</title>
+    <link rel="stylesheet" href="trabalhoApiPhotos.css"/>
+    <script src="trabalhoApiPhotos.js"> </script>
+</head>
+<body>
+    <div id="container">
+        <h1>Programa para consultar fotos</h1>
+        <form>
+            <div>
+                <label for="id"> Informe o ID para consultar uma foto</label>
+                <input type="text" id="id">
+            </div>
+            <div>
+                <label for="albumId"> ALBUM ID </label>
+                <input type="text" id="albumId" readonly>
+            </div>
+            <div>
+                <label for="title"> TITLE </label>
+                <input type="text" id="title" readonly>
+            </div>
+            <div>
+                <img id="url">
+            </div>
+            <div>
+                <img id="thumbnailUrl">
+            </div>
+            <div>
+                <button type="button" onclick= "api()" >
+                    Consultar foto
+                 </button> 
+            </div>
+        </form>
+    </div>
+</body>
+</html>
